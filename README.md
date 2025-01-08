@@ -79,7 +79,7 @@ The generated `.LOG` files are stored in a folder organized by date and time (in
 
 ## **Important Notes**
 - This tool is intended for **legitimate and ethical use only**. Ensure you have the necessary permissions before using it on any system.
-- It is not designed for hacking or malicious purposes.
+- It is not designed for malicious purposes.
 
 ## **Contributions**
 Contributions are welcome! If you want to improve RetrieveInfo or add new features, feel free to submit a pull request or open an issue.
@@ -170,7 +170,7 @@ Los archivos `.LOG` generados se almacenan en una carpeta organizada por fecha y
 
 ## **Notas importantes**
 - Esta herramienta está diseñada exclusivamente para **uso legítimo y ético**. Asegúrate de contar con los permisos necesarios antes de utilizarla en cualquier sistema.
-- No está diseñada para usarse como herramienta de hacking o con fines maliciosos.
+- No está diseñada para usarse como herramienta con fines maliciosos.
 
 ## **Contribuciones**
 ¡Las contribuciones son bienvenidas! Si deseas mejorar RetrieveInfo o agregar nuevas funcionalidades, no dudes en enviar un pull request o abrir un issue.
