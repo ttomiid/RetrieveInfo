@@ -63,11 +63,11 @@ RetrieveInfo uses the following commands to gather information:
 3. Run the program:
    - **Background mode:**
      ```bash
-     python retrieveinfo.py
+     python3 retrieveinfo.py
      ```
    - **CMD mode (specifying the output folder):**
      ```bash
-     python retrieveinfo.py <folder_name>
+     python3 retrieveinfo.py <folder_name>
      ```
 
 ## **Output Structure**
@@ -150,11 +150,11 @@ RetrieveInfo utiliza los siguientes comandos para recopilar información:
 3. Ejecuta el programa:
    - **Modo segundo plano:**
      ```bash
-     python retrieveinfo.py
+     python3 retrieveinfo.py
      ```
    - **Modo CMD (especificando carpeta de salida):**
      ```bash
-     python retrieveinfo.py <nombre_carpeta>
+     python3 retrieveinfo.py <nombre_carpeta>
      ```
 
 ## **Estructura de salida**
