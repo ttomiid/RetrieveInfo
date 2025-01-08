@@ -1,5 +1,92 @@
 # **RetrieveInfo**
 
+RetrieveInfo is an automated tool designed to extract and collect key information from Windows systems using native Command Prompt (CMD) commands. This utility is tailored for diagnostics, audits, and system analysis, generating `.LOG` files organized with the results of the executed commands, allowing for quick and efficient data review.
+
+## **Key Features**
+- **Automated Command Execution:** RetrieveInfo runs a wide range of Windows commands to collect detailed information about the system, network, hardware, users, and more.
+- **Flexible Execution Modes:**
+  - **Background Mode:** Performs analysis without user interaction.
+  - **CMD Interface:** Prompts the user to specify the folder where results will be saved.
+- **Structured Output:** Results are automatically saved in `.LOG` files organized in a user-specified or default folder.
+- **Easily Extendable:** Can be adapted to include additional commands as needed.
+
+## **Executed Commands**
+RetrieveInfo uses the following commands to gather information:
+- **Network:**
+  - `ipconfig /allcompartments /all`
+  - `netstat -q`
+  - `netstat -e`
+  - `netstat -r`
+  - `ipconfig /displaydns`
+  - `arp -a`
+  - `nbtstat -c`
+- **Hardware and System:**
+  - `wmic cpu list full`
+  - `wmic bios list full`
+  - `wmic memorychip list full`
+  - `systeminfo`
+  - `driverquery`
+  - `ver`
+- **Users and Policies:**
+  - `net user`
+  - `gpresult /r`
+- **Processes and Services:**
+  - `tasklist`
+  - `sc query`
+- **Utilities and Diagnostics:**
+  - `curl -s ifconfig.me/all`
+  - `getmac /v`
+  - `tzutil /g`
+  - `winget list`
+  - `netsh wlan show all`
+
+## **Use Cases**
+- Auditing systems in corporate environments.
+- Diagnosing hardware and software configurations.
+- Analyzing network and user settings.
+- Monitoring group policies and installed drivers.
+
+## **System Requirements**
+- Operating System: Windows 10 or newer.
+- Python 3.x installed.
+- Administrator privileges (required for certain commands).
+
+## **Installation and Usage**
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/RetrieveInfo.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd RetrieveInfo
+   ```
+3. Run the program:
+   - **Background mode:**
+     ```bash
+     python retrieveinfo.py
+     ```
+   - **CMD mode (specifying the output folder):**
+     ```bash
+     python retrieveinfo.py <folder_name>
+     ```
+
+## **Output Structure**
+The generated `.LOG` files are stored in a folder organized by date and time (in default mode) or in the folder specified by the user.
+
+## **Important Notes**
+- This tool is intended for **legitimate and ethical use only**. Ensure you have the necessary permissions before using it on any system.
+- It is not designed for hacking or malicious purposes.
+
+## **Contributions**
+Contributions are welcome! If you want to improve RetrieveInfo or add new features, feel free to submit a pull request or open an issue.
+
+## **License**
+RetrieveInfo is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more details.
+
+
+
+# **RetrieveInfo**
+
 RetrieveInfo es una herramienta automatizada para extraer y recopilar información clave de sistemas Windows utilizando comandos nativos del símbolo del sistema (CMD). Diseñada para diagnósticos, auditorías y análisis de sistemas, esta utilidad genera archivos `.LOG` organizados con los resultados de los comandos ejecutados, permitiendo una visualización rápida y eficiente de los datos.
 
 ## **Características principales**
