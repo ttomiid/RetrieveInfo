@@ -1,7 +1,10 @@
 # **RetrieveInfo** (ENG)
 
 ![icon](https://github.com/user-attachments/assets/9536d186-3208-4afc-bd79-47af0c898025)
-<center>
+
+<div align="center">
+  <img src="![icon](https://github.com/user-attachments/assets/9536d186-3208-4afc-bd79-47af0c898025)" alt="Descripción de la imagen" width="300">
+</div>
 
 
 RetrieveInfo is an automated tool designed to extract and collect key information from Windows systems using native Command Prompt (CMD) commands. This utility is tailored for diagnostics, audits, and system analysis, generating `.LOG` files organized with the results of the executed commands, allowing for quick and efficient data review.
