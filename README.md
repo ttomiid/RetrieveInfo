@@ -58,7 +58,7 @@ RetrieveInfo uses the following commands to gather information:
 ## **Installation and Usage**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/RetrieveInfo.git
+   git clone https://github.com/ttomiid/RetrieveInfo.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -149,7 +149,7 @@ RetrieveInfo utiliza los siguientes comandos para recopilar información:
 ## **Instalación y uso**
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/RetrieveInfo.git
+   git clone https://github.com/ttomiid/RetrieveInfo.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
