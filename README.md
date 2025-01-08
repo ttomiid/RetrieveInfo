@@ -1,7 +1,5 @@
 # **RetrieveInfo** (ENG)
 
-![icon](https://github.com/user-attachments/assets/9536d186-3208-4afc-bd79-47af0c898025)
-
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9536d186-3208-4afc-bd79-47af0c898025" alt="Descripción de la imagen" width="300">
 </div>
